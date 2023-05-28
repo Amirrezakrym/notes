@@ -6,8 +6,8 @@
                 <h2 class="logo">یادداشت ها</h2>
                 <div class="devider"></div>
                 <ul id="menu">
-                    <li class="menu-item"><a href="#"><i class="fas fa-home"></i>ورود</a></li>
-                    <li class="menu-item"><a href="#"><i class="fas fa-power-off"></i>ثبت نام</a></li>
+                    <li class="menu-item"><a href="login.php"><i class="fas fa-home"></i>ورود</a></li>
+                    <li class="menu-item"><a href="register.php"><i class="fas fa-power-off"></i>ثبت نام</a></li>
                 </ul>
 
             </div>
@@ -20,7 +20,7 @@
                         <div class="box notes shadow-md">
                             <h2><i class="fas fa-user"></i>ساخت حساب جدید</h2>
                             <hr>
-                            <form action="inc/db.php" method="post" class="text-center">
+                            <form action="inc/function.php" method="post" class="text-center">
                                 <input type="text" name="display-name" class="form-control w-75 mx-auto" placeholder="نام شما">
                                 <input type="text" name="username" class="form-control w-75 mx-auto mt-2" placeholder="نام کاربری">
                                 <input type="password" name="password" class="form-control w-75 mx-auto mt-2" placeholder="کلمه عبور">

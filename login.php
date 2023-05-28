@@ -6,8 +6,8 @@
                 <h2 class="logo">یادداشت ها</h2>
                 <div class="devider"></div>
                 <ul id="menu">
-                    <li class="menu-item"><a href="#"><i class="fas fa-home"></i>ورود</a></li>
-                    <li class="menu-item"><a href="#"><i class="fas fa-power-off"></i>ثبت نام</a></li>
+                    <li class="menu-item"><a href="login.php"><i class="fas fa-home"></i>ورود</a></li>
+                    <li class="menu-item"><a href="register.php"><i class="fas fa-power-off"></i>ثبت نام</a></li>
                 </ul>
 
             </div>

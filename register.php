@@ -20,6 +20,15 @@
                         <div class="box notes shadow-md">
                             <h2><i class="fas fa-user"></i>ساخت حساب جدید</h2>
                             <hr>
+                            <?php
+                            session_start();
+                            if (isset($_SESSION['message'])) {
+                                
+                                echo "<div class='alert alert-warning m-3'>" . $_SESSION['message'] . "</div>";
+                                unset($_SESSION['message']);
+                            }
+                            
+                            ?>
                             <form action="inc/function.php" method="post" class="text-center">
                                 <input type="text" name="display-name" class="form-control w-75 mx-auto" placeholder="نام شما">
                                 <input type="text" name="username" class="form-control w-75 mx-auto mt-2" placeholder="نام کاربری">

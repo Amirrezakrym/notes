@@ -20,6 +20,16 @@
                         <div class="box notes shadow-md">
                             <h2><i class="fas fa-user"></i>ورود به حساب کاربری</h2>
                             <hr>
+                            <?php
+                                session_start();
+                                if (isset($_SESSION['message'])) {
+                                    echo "<div class='alert alert-warning m-3'>" . $_SESSION['message'] . "</div>";
+                                    unset($_SESSION['message']);
+                                }
+                            
+                            
+                            
+                            ?>
                             <form action="" class="text-center">
                                 <input type="text" class="form-control w-75 mx-auto" placeholder="نام کاربری">
                                 <input type="text" class="form-control w-75 mx-auto mt-2" placeholder="کلمه عبور">
